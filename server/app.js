@@ -17,7 +17,7 @@ app.use("/stories", storyRoutes);
 app.use("/user", userRoutes);
 
 app.get('/', (req, res) => {
-    res.send("welcome to the instaverse api");
+    res.send("<welcome/>");
 })
 
 const MONGO_URI = process.env.MONGO_URI;
