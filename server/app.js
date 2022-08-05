@@ -17,7 +17,7 @@ app.use("/stories", storyRoutes);
 app.use("/user", userRoutes);
 
 app.get('/', (req, res) => {
-   <h1> res.send("welcome ");<h1>
+   res.send("welcome ");
 })
 
 const MONGO_URI = process.env.MONGO_URI;
